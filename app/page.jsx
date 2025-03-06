@@ -10,9 +10,11 @@ export default function Home() {
                 </div>
                 <div className={styles.aside}>
                     <h1>LOGIN</h1>
-                    <input type="text" placeholder="E-mail Address or Username" />
-                    <input type="password" placeholder="Password" />
-                    <button type="submit">CONTINUE</button>
+                    <div className={styles.inputs}>
+                        <input type="text" placeholder="E-mail Address or Username" />
+                        <input type="password" placeholder="Password" />
+                        <button type="submit">CONTINUE</button>
+                    </div>
                     <p>Connect with</p>
                     <div className={styles.socialmedia}>
                         <div className={styles.media}>
