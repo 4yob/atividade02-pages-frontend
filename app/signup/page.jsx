@@ -1,8 +1,9 @@
 "use client";
-import styles from "../styles/Home.module.css";
+import styles from "../../styles/Home.module.css";
 import { useRouter } from "next/navigation";
 
-export default function Home() {
+
+export default function SignUp() {
     const router = useRouter();
 
     return (
@@ -10,13 +11,13 @@ export default function Home() {
             <div className={styles.container}>
                 <div className={styles.article}>
                     <h1>WELCOME!</h1>
-                    <h3>Join us in this journey</h3>
+                    <h3>Sign Up to access</h3>
                 </div>
                 <div className={styles.aside}>
-                    <h1>LOGIN</h1>
+                    <h1>SIGN UP</h1>
                     <div className={styles.inputs}>
-                        <input type="text" placeholder="E-mail Address or Username" />
-                        <input type="password" placeholder="Password" />
+                        <input type="text" placeholder="alejandra.barros@aluno.senai.br" />
+                        <input type="password" placeholder="12345" />
                         <button type="submit">CONTINUE</button>
                     </div>
                     <p>Connect with</p>
@@ -32,7 +33,7 @@ export default function Home() {
                         </div>
                     </div>
                     <p>Or</p>
-                    <h2 onClick={() => router.push("/signup")}>SIGN UP!</h2>
+                    <h2 onClick={() => router.push("/")}>LOGIN</h2>
                 </div>
             </div>
         </div>
