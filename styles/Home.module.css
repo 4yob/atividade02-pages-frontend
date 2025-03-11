@@ -50,13 +50,19 @@
     align-items: center;
     width: 40%;
     border-radius: 0 20px 20px 0;
-    padding: 2rem 1rem;
-    gap: 2rem;
+    padding: 2rem;
+    gap: 1.2rem;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .aside h1 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 }
@@ -107,6 +113,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: rgb(158, 158, 158);
+    text-align: center;
 }
 
 .socialmedia {
@@ -114,19 +121,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 5rem;
-    height: 5rem;
     gap: 2rem;
 }
 
 .media {
     display: flex;
     justify-content: center;
-    gap: 2rem;
-    padding: 0 1rem;
     align-items: center;
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     background-color: rgba(194, 194, 194, 0.185);
     border-radius: 100%;
 }
@@ -137,8 +140,16 @@
 }
 
 .media:hover {
-    border: 2px solid rgb(155, 155, 155);
-    transition: 0.1s;
+    background-color: rgb(211, 211, 211);
+    transition: 0.2s;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
 .aside h2 {

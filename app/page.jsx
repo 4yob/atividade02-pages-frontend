@@ -13,7 +13,9 @@ export default function Home() {
                     <h3>Join us in this journey</h3>
                 </div>
                 <div className={styles.aside}>
+                    <div className={styles.title}>
                     <h1>LOGIN</h1>
+                    </div>
                     <div className={styles.inputs}>
                         <input type="text" placeholder="E-mail Address or Username" />
                         <input type="password" placeholder="Password" />
@@ -31,8 +33,10 @@ export default function Home() {
                             <img src="/facebook-icon.png"/>
                         </div>
                     </div>
-                    <p>Or</p>
-                    <h2 onClick={() => router.push("/signup")}>SIGN UP!</h2>
+                    <div className={styles.bottom}>
+                        <p>Or</p>
+                        <h2 onClick={() => router.push("/signup")}>SIGN UP!</h2>
+                    </div>
                 </div>
             </div>
         </div>
