@@ -24,7 +24,7 @@ export default function SignUp() {
                             <p>Confirme a senha *</p>
                         </div>
                         <input type="password" placeholder="12345" />
-                        <button type="submit">CONTINUE</button>
+                        <button type="submit" onClick={() => router.push("/profile")}>CONTINUE</button>
                     </div>
                     <p>Connect with</p>
                     <div className={styles.socialmedia}>

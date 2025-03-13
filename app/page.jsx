@@ -19,7 +19,7 @@ export default function Home() {
                     <div className={styles.inputs}>
                         <input type="text" placeholder="E-mail Address or Username" />
                         <input type="password" placeholder="Password" />
-                        <button type="submit">CONTINUE</button>
+                        <button type="submit" onClick={() => router.push("/profile")}>CONTINUE</button>
                     </div>
                     <p>Connect with</p>
                     <div className={styles.socialmedia}>

@@ -1,0 +1,140 @@
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(rgb(168, 144, 144), rgb(255, 255, 255));
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    height: 80vh;
+    width: 70vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    border-radius: 20px;
+    color: rgb(000, 000, 000);
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+.title h1 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.title h3 {
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgba(118, 118, 118, 0.842);
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2rem;
+}
+
+.description h2 {
+    text-align: start;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color:rgb(64, 64, 64);
+}
+
+.description p {
+    font-size: 0.85rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.article p {
+    font-size: 0.85rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(194, 194, 194, 0.185);
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+}
+
+.link img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.link:hover {
+    background-color: rgb(211, 211, 211);
+    transition: 0.2s;
+}
+
+.aside {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: rosybrown;
+    border-radius: 20px;
+    background-image: url("../public/profile-photo.png");
+    filter: brightness(80%);
+    background-size: cover;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bottom h2 {
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: rgb(187, 187, 187);
+}
+
+.bottom h2:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
