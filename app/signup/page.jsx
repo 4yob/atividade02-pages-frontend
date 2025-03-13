@@ -40,7 +40,7 @@ export default function SignUp() {
                     </div>
                     <div className={styles.bottom}>
                         <p>Or</p>
-                        <h2 onClick={() => router.push("/")}>LOGIN</h2>
+                        <h2 onClick={() => router.push("/")}>LOG IN</h2>
                     </div>
                 </div>
             </div>

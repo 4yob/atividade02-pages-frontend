@@ -35,7 +35,7 @@ export default function Home() {
                     </div>
                     <div className={styles.bottom}>
                         <p>Or</p>
-                        <h2 onClick={() => router.push("/signup")}>SIGN UP!</h2>
+                        <h2 onClick={() => router.push("/signup")}>SIGN UP</h2>
                     </div>
                 </div>
             </div>
