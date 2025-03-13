@@ -14,9 +14,15 @@ export default function SignUp() {
                     <h3>Sign Up to access</h3>
                 </div>
                 <div className={styles.aside}>
-                    <h1>SIGN UP</h1>
+                    <div className={styles.title}>
+                        <h1>SIGN UP</h1>
+                    </div>
                     <div className={styles.inputs}>
                         <input type="text" placeholder="alejandra.barros@aluno.senai.br" />
+                        <input type="password" placeholder="12345" />
+                        <div className={styles.passwordp}>
+                            <p>Confirme a senha *</p>
+                        </div>
                         <input type="password" placeholder="12345" />
                         <button type="submit">CONTINUE</button>
                     </div>
@@ -32,8 +38,10 @@ export default function SignUp() {
                             <img src="/facebook-icon.png"/>
                         </div>
                     </div>
-                    <p>Or</p>
-                    <h2 onClick={() => router.push("/")}>LOGIN</h2>
+                    <div className={styles.bottom}>
+                        <p>Or</p>
+                        <h2 onClick={() => router.push("/")}>LOGIN</h2>
+                    </div>
                 </div>
             </div>
         </div>

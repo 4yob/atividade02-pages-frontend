@@ -14,7 +14,7 @@ export default function Home() {
                 </div>
                 <div className={styles.aside}>
                     <div className={styles.title}>
-                    <h1>LOGIN</h1>
+                        <h1>LOGIN</h1>
                     </div>
                     <div className={styles.inputs}>
                         <input type="text" placeholder="E-mail Address or Username" />
