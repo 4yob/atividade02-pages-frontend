@@ -27,7 +27,7 @@ export default function Verification() {
             onChange={(e) => setInput2(e.target.value)}
             />
 
-            <button onClick={handleCheck}>Check</button>
+            <button onClick={handleCheck}>CHECK</button>
 
             {match !== null && <p>{match ? "Success, welcome!" : "Try Again"}</p>}
         </div>

@@ -1,7 +1,6 @@
 "use client";
 import styles from "../../styles/Home.module.css";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
 
 import Input from "../../components/Input";
 import Verification from "../verification";
@@ -25,7 +24,9 @@ export default function SignUp() {
                         <Input type="text" placeholder="Insert an e-mail"/>
                         <Verification />
                     </div>
+                    <div className={styles.button}>
                         <button type="submit" onClick={() => router.push("/profile")}>CONTINUE</button>
+                    </div>
                     <p>Connect with</p>
                     <div className={styles.socialmedia}>
                         <div className={styles.media}>
