@@ -1,11 +1,11 @@
 "use client";
+
 import styles from "../../styles/Home.module.css";
 import { useRouter } from "next/navigation";
 
 import Input from "../../components/Input"
 
-
-export default function SignUp() {
+export default function Home() {
     const router = useRouter();
 
     return (
@@ -13,19 +13,15 @@ export default function SignUp() {
             <div className={styles.container}>
                 <div className={styles.article}>
                     <h1>WELCOME!</h1>
-                    <h3>Sign Up to access</h3>
+                    <h3>Join us in this journey</h3>
                 </div>
                 <div className={styles.aside}>
                     <div className={styles.title}>
-                        <h1>SIGN UP</h1>
+                        <h1>LOGIN</h1>
                     </div>
                     <div className={styles.inputs}>
-                        <Input type="text" placeholder="alejandra.barros@aluno.senai.br" />
-                        <Input type="password" placeholder="12345" />
-                        <div className={styles.passwordp}>
-                            <p>Confirme a senha *</p>
-                        </div>
-                        <Input type="password" placeholder="12345" />
+                        <Input type="text" placeholder="E-mail Address or Username" />
+                        <Input type="password" placeholder="Password" />
                     </div>
                         <button type="submit" onClick={() => router.push("/profile")}>CONTINUE</button>
                     <p>Connect with</p>
@@ -42,7 +38,7 @@ export default function SignUp() {
                     </div>
                     <div className={styles.bottom}>
                         <p>Or</p>
-                        <h2 onClick={() => router.push("/")}>LOG IN</h2>
+                        <h2 onClick={() => router.push("/signup")}>SIGN UP</h2>
                     </div>
                 </div>
             </div>
