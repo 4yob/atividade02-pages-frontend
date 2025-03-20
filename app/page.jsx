@@ -15,7 +15,7 @@ export default function Home() {
     return (
         <div className={styles.background}>
             <div className={styles.spinner}></div>
-            <p>AGUARDE</p>
+            <p>REDIRECTING</p>
         </div>
     );
 }
