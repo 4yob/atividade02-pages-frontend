@@ -28,6 +28,13 @@
     font-size: 0.9rem;
     font-weight: 700;
     color: rgba(255, 255, 255, 0.833);
+    cursor: pointer;
+    transition: font-size 0.3s ease,
+}
+
+.pages p:hover {
+    color: rgba(177, 129, 66, 0.9);
+    font-size: 0.95rem;
 }
 
 .container {
@@ -63,7 +70,7 @@
 }
 
 .block {
-    background-color: rgba(0, 0, 0, 0.116);
+    background-color: rgba(109, 57, 15, 0.637);
     width: 95%;
     height: 90%;
     border-radius: 20px;
@@ -90,7 +97,7 @@
 }
 
 .card1 {
-    background-color: rgb(109, 57, 15);
+    background-color: rgb(255,245,238);
     width: 25rem;
     height: 28rem;
     border-radius: 20px;
@@ -125,20 +132,13 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: 800;
-    color:rgba(255, 255, 255, 0.674);
+    color:rgba(71, 36, 7, 0.726);
 }
 
 .description p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.8rem;
     font-weight: 700;
-    color:rgba(255, 255, 255, 0.575);
+    color:rgba(71, 36, 7, 0.726);
     word-spacing: 2px;
-}
-
-.icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.2rem;
 }

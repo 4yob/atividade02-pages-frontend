@@ -10,9 +10,9 @@ export default function Profile() {
         <div className={styles.background}>
             <div className={styles.aside}>
                 <div className={styles.pages}>
-                    <p>MY DASHBOARD</p>
-                    <p>SIGN UP</p>
-                    <p>LOG OUT</p>
+                    <p onClick={() => router.push("/profile")}>MY DASHBOARD</p>
+                    <p onClick={() => router.push("/signup")}>SIGN UP</p>
+                    <p onClick={() => router.push("/login")}>LOG OUT</p>
                 </div>
             </div>
             <div className={styles.container}>
@@ -24,7 +24,7 @@ export default function Profile() {
                         <div className={styles.left}>
                             <div className={styles.card1}>
                                 <div className={styles.photo}>
-                                    <img src="/profile-photo.png" />
+                                    <img src="/img-profile.jpg" />
                                 </div>
                                 <div className={styles.description}>
                                     <h2>ALEJANDRA BARROS</h2>
@@ -37,7 +37,7 @@ export default function Profile() {
                         </div>
                         <div className={styles.right}>
                             <Card title="SOBRE MIM" content="Apaixonada por arte e paisagens. Me interesso por moda, dança e música e não vivo sem meus amigos."/>
-                            <Card title="TECNOLOGIAS" image={<div className={styles.icons}>
+                            <Card title="TECNOLOGIAS" image1={<div className={styles.icons}>
                                 <img src="/postgrees-icon.png"/>
                                 <img src="/javascript-icon.png"/>
                                 <img src="/css-icon.png"/>
@@ -45,6 +45,12 @@ export default function Profile() {
                                 <img src="/react-icon.png"/>
                                 <img src="/nextjs-icon.png"/>
                                 <img src="/nodejs-icon.png"/>
+                                <img src="/vscode-icon.png"/>
+                                <img src="/postman-icon.png"/>
+                                <img src="/figma-icon.png"/>
+                                <img src="/git-icon.png"/>
+                                <img src="/github-icon.png"/>
+                                <img src="/expogo-icon.png"/>
                             </div>}/>
                         </div>
                     </div>
