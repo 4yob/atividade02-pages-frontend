@@ -4,6 +4,7 @@ import styles from "../../styles/Home.module.css";
 import { useRouter } from "next/navigation";
 
 import Input from "../../components/Input"
+import Button from "../../components/Button"
 
 export default function Home() {
     const router = useRouter();
@@ -23,7 +24,12 @@ export default function Home() {
                         <Input type="text" placeholder="E-mail Address or Username" />
                         <Input type="password" placeholder="Password" />
                     </div>
-                        <button type="submit" onClick={() => router.push("/profile")}>CONTINUE</button>
+                    
+                        <Button
+                        text="CONTINUE"
+                        onClick={() => router.push("/profile")}
+                        />
+
                     <p>Connect with</p>
                     <div className={styles.socialmedia}>
                         <div className={styles.media}>
