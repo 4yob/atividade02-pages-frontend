@@ -21,3 +21,10 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(187, 187, 187);
 }
+
+@media (max-width: 1024px) {
+    .inputs input {
+        width: 15rem;
+        height: 2rem;
+    }
+}

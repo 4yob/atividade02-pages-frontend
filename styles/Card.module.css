@@ -44,3 +44,27 @@
     width: 1.8rem;
     height: 1.8rem;
 }
+
+@media (max-width: 1024px) {
+    .card2 {
+        width: 20rem;
+        height: 10.5rem;
+    }
+
+    .card2 h2 {
+        font-size: 1rem;
+    }
+
+    .card2 p {
+        font-size: 0.8rem;
+    }
+
+    .card2 img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .line {
+        width: 80%;
+    }
+}

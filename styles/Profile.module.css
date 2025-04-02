@@ -143,3 +143,39 @@
     color:rgba(71, 36, 7, 0.726);
     word-spacing: 2px;
 }
+
+@media (max-width: 1024px) {
+    .aside {
+        width: 18vw;
+    }
+
+    .pages {
+        gap: 1.2rem;
+    }
+
+    .container {
+        width: 82vw;
+    }
+
+    .header h1 {
+        font-size: 1.2rem;
+    }
+
+    .block {
+        width: 95%;
+
+    }
+
+    .card1 {
+        width: 22rem;
+        height: 25rem;
+    }
+
+    .description h2 {
+        font-size: 1.2rem;
+    }
+
+    .description p {
+        font-size: 0.7rem;
+    }
+}
