@@ -68,3 +68,23 @@
         width: 80%;
     }
 }
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .card2 {
+        width: 26rem;
+        height: 15.5rem;
+    }
+
+    .card2 h2 {
+        font-size: 1.5rem;
+    }
+
+    .card2 p {
+        font-size: 1.1rem;
+    }
+
+    .card2 img {
+        width: 2rem;
+        height: 2rem;
+    }
+}
