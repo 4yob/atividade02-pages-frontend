@@ -180,33 +180,6 @@
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
-    .pages p {
-        font-size: 1.1rem;
-    }
-
-    .header h1 {
-        font-size: 1.9rem;
-    }
-
-    .block {
-        width: 90%;
-    }
-
-    .card1 {
-        width: 28rem;
-        height: 35rem;
-    }
-
-    .description h2 {
-        font-size: 1.8rem;
-    }
-
-    .description p {
-        font-size: 1rem;
-    }
-}
-
 @media (min-width: 1440px) and (max-width: 2560px) {
     .pages {
         height: 5rem;
