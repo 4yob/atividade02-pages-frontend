@@ -28,3 +28,19 @@
         height: 2rem;
     }
 }
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .inputs {
+        height: 4rem;
+    }
+
+    .inputs input {
+        width: 25rem;
+        height: 2.8rem;
+        border-radius: 10px;
+    }
+
+    .inputs input::placeholder {
+        font-size: 0.9rem;
+    }
+}
