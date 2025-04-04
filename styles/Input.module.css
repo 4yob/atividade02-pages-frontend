@@ -44,3 +44,19 @@
         font-size: 0.9rem;
     }
 }
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .inputs {
+        height: 6rem;
+    }
+
+    .inputs input {
+        width: 40rem;
+        height: 4.5rem;
+        border-radius: 10px;
+    }
+
+    .inputs input::placeholder {
+        font-size: 1.5rem;
+    }
+}

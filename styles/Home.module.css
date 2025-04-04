@@ -219,3 +219,44 @@
         height: 3rem;
     }
 }
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .container {
+        width: 80vw;
+        height: 80vh;
+    }
+
+    .article h1 {
+        font-size: 4rem;
+    }
+
+    .article h3 {
+        font-size: 2rem;
+    }
+
+    .aside {
+        gap: 3rem;
+    }
+
+    .aside h1 {
+        font-size: 4rem;
+    }
+
+    .aside p {
+        font-size: 1.5rem;
+    }
+
+    .aside h2 {
+        font-size: 1.5rem;
+    }
+
+    .media {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .media img {
+        width: 3rem;
+        height: 3rem;
+    }
+}
